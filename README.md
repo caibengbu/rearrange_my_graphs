@@ -4,7 +4,7 @@ Have you ever produced a bunch of (more precisely, a cartesian product of) plots
 ## How to use this package
 1. **Naming of the graphs**: Put all your graphs in a directory (for example `my_path/`) and name them in a regular fashion. For example, I have 4 scatter plots between variable group A B and variable group C D. They are saved as: `scatter_plot_between_A_and_C.png`, `scatter_plot_between_A_and_D.png`, `scatter_plot_between_B_and_C.png`, `scatter_plot_between_B_and_D.png`. 
 2. **Write the filename pattern**: Write your filenames in a wildcard style but replace the asterisks with a pair of brackets and field namd in the middle. Following our old example, the pattern would be written as `scatter_plot_between_{x}_and_{y}.png`.
-3. **Run our Python program**: Run ```python -c `import rearrange_my_graphs; rearrange_my_graphs.rearrange(rule='scatter_plot_between_{x}_and_{y}.png',col_axis='x',row_axis='y',table_name='output.tex',unit_size=0.3)```
+3. **Run our Python program**: Run ```python -c `import rearrange_my_graphs; rearrange_my_graphs.rearrange(rule='scatter_plot_between_{x}_and_{y}.png',col_axis='x',row_axis='y',table_name='output.tex',unit_size=0.3,root_dir='my_path/')```
 4. **Run LaTeX**: Run LaTeX on the output tex file specified in `table_name`.
 
 ## Compulsory Arguments
