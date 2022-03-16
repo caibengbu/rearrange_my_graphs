@@ -11,7 +11,7 @@ Have you ever produced a bunch of (more precisely, a cartesian product of) plots
 - `rule`: the filename pattern of your graphs
 - `col_axis`: the graph parameter that you want to use as the column of the table
 - `row_axis`: the graph parameter that you want to use as the row of the table
-- `table_name': the output tex file
+- `table_name`: the output tex file
 - `unit_size`: the size of the graph is specified as `unit_size` times \textwidth of LaTeX.
 
 ## Optional Arguments
