@@ -19,4 +19,5 @@ Have you ever produced a bunch of (more precisely, a cartesian product of) plots
 - `col_sort`: a list of all possible values of `col_axis` can take. The perk of specifying this is that (1) we can sort col_axis however we want (in our example, set `col_sort` to `["B","A"]` will make row `B` above `A`); (2) we can filter our values we don't want (in our example, set `col_sort` to `["A"]` will remove row `B`)
 - `row_sort`: a list of all possible values of `row_axis` can take. Similar to `col_sort`.
 
-
+## Other Usage
+- You can specify more than two field in your pattern, the output is going to be multiple graph matrices.
